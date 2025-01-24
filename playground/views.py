@@ -1,7 +1,8 @@
 from django.shortcuts import render
-from store.models import Product, Order
+from django.db.models.aggregates import Count, Max, Min, Avg, Sum
+from store.models import Product
 
 def say_hello(request):
-    query_set = Order.objects.select_related('customer').prefetch_related('orderitem_set__product').order_by('-placed_at')[:5]
+    result = Product.objects.filter(collection_id=1).aggregate(count=Count('id'), min_price=Min('unit_price'))
     
-    return render(request, 'hello.html', {'name': 'Mosh', 'orders': list(query_set)})
+    return render(request, 'hello.html', {'name': 'Mosh', 'result': result})

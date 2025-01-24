@@ -4,11 +4,6 @@
     <h1>Hello {{ name }}</h1>
     {% else %}
     <h1>Hello World</h1>
-    {% endif %}
-    <ul>
-      {% for order in orders %}
-      <li>{{ order.id }} - {{ order.customer.first_name }}</li>
-      {% endfor %}
-    </ul>
+    {% endif %} {{ result }}
   </body>
 </html>
