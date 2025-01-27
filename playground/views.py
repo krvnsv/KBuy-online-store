@@ -4,6 +4,8 @@ from store.models import Product
 from tags.models import TaggedItem
 
 def say_hello(request):
-    TaggedItem.objects.get_tags_for(Product, 1)
+    query_set = Product.objects.all()
+    query_set[0]
+    list(query_set)
     
-    return render(request, 'hello.html', {'name': 'Mosh', 'tags': list(query_set)})
+    return render(request, 'hello.html', {'name': 'Mosh'})
