@@ -11,4 +11,6 @@ Database Functions: https://docs.djangoproject.com/en/5.1/ref/models/database-fu
 
 Admin site: https://docs.djangoproject.com/en/5.1/ref/contrib/admin/#modeladmin-options
 
+Validators: https://docs.djangoproject.com/en/5.1/ref/validators/
+
 Expression class: Value, F, Func, Aggregate, ExpressionWrapper
