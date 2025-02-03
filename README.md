@@ -26,3 +26,7 @@ Resources - object, data, or entity that can be identified and manipulated throu
 Resource Representation - refers to how a resource is presented or formatted when it is sent from the server to the client or vice versa. Common formats: HTML, XML, JSON. 
  
 HTTP Methods - the actions that clients can perform on resources in a RESTful API. Methods: Get, Post (create), Put (update/create), Patch (update partially), Delete. 
+ 
+Serializer - a component that converts complex data types (like Django models or querysets) into Python data types (dictionaries) that can be easily rendered into JSON, XML, or other content types.
+
+Serializer fields: https://www.django-rest-framework.org/api-guide/fields/
