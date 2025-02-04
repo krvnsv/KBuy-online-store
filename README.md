@@ -29,4 +29,6 @@ HTTP Methods - the actions that clients can perform on resources in a RESTful AP
  
 Serializer - a component that converts complex data types (like Django models or querysets) into Python data types (dictionaries) that can be easily rendered into JSON, XML, or other content types.
 
-Serializer fields: https://www.django-rest-framework.org/api-guide/fields/
+Serializer fields: https://www.django-rest-framework.org/api-guide/fields/ 
+ 
+Serializing relationships: primary key, string, nested object, hyperlink (p2 l13)
