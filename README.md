@@ -31,4 +31,8 @@ Serializer - a component that converts complex data types (like Django models or
 
 Serializer fields: https://www.django-rest-framework.org/api-guide/fields/ 
  
-Serializing relationships: primary key, string, nested object, hyperlink (p2 l13)
+Serializing relationships: primary key, string, nested object, hyperlink (p2 l13) 
+ 
+Function-Based api Views for very simple APIs (one or two request types). 
+Class-Based api Views - for structured, reusable APIs that need customization. 
+Generic Views - when working with standard CRUD operations. 
