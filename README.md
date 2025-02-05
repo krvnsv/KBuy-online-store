@@ -36,3 +36,6 @@ Serializing relationships: primary key, string, nested object, hyperlink (p2 l13
 Function-Based api Views for very simple APIs (one or two request types). 
 Class-Based api Views - for structured, reusable APIs that need customization. 
 Generic Views - when working with standard CRUD operations. 
+ 
+Mixins: https://www.django-rest-framework.org/api-guide/generic-views/#mixins
+
