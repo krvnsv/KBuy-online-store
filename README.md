@@ -39,4 +39,6 @@ Generic Views - when working with standard CRUD operations.
  
 Mixins: https://www.django-rest-framework.org/api-guide/generic-views/#mixins
  
-Filters/How to create custom filters: https://django-filter.readthedocs.io/en/stable/ b
+Filters/How to create custom filters: https://django-filter.readthedocs.io/en/stable/ 
+ 
+Building an API: Serializer -> View -> Route
