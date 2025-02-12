@@ -47,4 +47,7 @@ Djoser - third-party package that simplifies the implementation of authenticatio
 
 Djoser: https://djoser.readthedocs.io/en/latest/
  
-Simple JWT: https://django-rest-framework-simplejwt.readthedocs.io/en/latest/
+Simple JWT: https://django-rest-framework-simplejwt.readthedocs.io/en/latest/ 
+ 
+JWT: https://jwt.io 
+
