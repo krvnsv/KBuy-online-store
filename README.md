@@ -46,3 +46,5 @@ Building an API: Serializer -> View -> Route
 Djoser - third-party package that simplifies the implementation of authentication-related functionality, particularly for building RESTful APIs.
 
 Djoser: https://djoser.readthedocs.io/en/latest/
+ 
+Simple JWT: https://django-rest-framework-simplejwt.readthedocs.io/en/latest/
