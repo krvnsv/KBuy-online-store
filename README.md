@@ -41,4 +41,8 @@ Mixins: https://www.django-rest-framework.org/api-guide/generic-views/#mixins
  
 Filters/How to create custom filters: https://django-filter.readthedocs.io/en/stable/ 
  
-Building an API: Serializer -> View -> Route
+Building an API: Serializer -> View -> Route 
+ 
+Djoser - third-party package that simplifies the implementation of authentication-related functionality, particularly for building RESTful APIs.
+
+Djoser: https://djoser.readthedocs.io/en/latest/
