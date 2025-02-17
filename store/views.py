@@ -13,6 +13,7 @@ from rest_framework.response import Response
 from rest_framework.views import APIView
 from rest_framework.viewsets import ModelViewSet, GenericViewSet
 from rest_framework import status
+from core import serializers
 from core.models import User
 from store.permissions import FullDjangoModelPermissions, IsAdminOrReadOnly, ViewCustomerHistoryPermission
 from .pagination import DefaultPagination
@@ -115,14 +116,20 @@ class CustomerViewSet(ModelViewSet):
 
 class OrderViewSet(ModelViewSet):
     permission_classes = [IsAuthenticated]
+
+    def create(self, request, *args, **kwargs):
+        serializer = CreateOrderSerializer(
+            data=request.data,
+            context={'user_id': self.request.user.id})
+        serializer.is_valid(raise_exception=True)
+        order = serializer.save()
+        serializer = OrderSerializer(order)
+        return Response(serializer.data)
     
     def get_serializer_class(self):
         if self.request.method == 'POST':
             return CreateOrderSerializer
         return OrderSerializer
-
-    def get_serializer_context(self):
-        return {'user_id': self.request.user.id}
 
     def get_queryset(self):
         user = self.request.user
