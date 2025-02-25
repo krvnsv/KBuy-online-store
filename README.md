@@ -50,4 +50,11 @@ Djoser: https://djoser.readthedocs.io/en/latest/
 Simple JWT: https://django-rest-framework-simplejwt.readthedocs.io/en/latest/ 
  
 JWT: https://jwt.io 
-
+ 
+Run Server, Redis nad Celery in 3 different terminals
+ 
+$ python manage.py run
+ 
+$ docker run -p 6379:6379
+ 
+$ celery -A storefront worker
