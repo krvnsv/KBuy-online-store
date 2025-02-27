@@ -7,8 +7,11 @@ name = "pypi"
 django = "*"
 django-debug-toolbar = "*"
 mysqlclient = "*"
+django-cors-headers = "*"
+djangorestframework = "*"
 
 [dev-packages]
+pytest = "*"
 
 [requires]
 python_version = "3.9"
