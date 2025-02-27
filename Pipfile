@@ -9,9 +9,13 @@ django-debug-toolbar = "*"
 mysqlclient = "*"
 django-cors-headers = "*"
 djangorestframework = "*"
+django-filter = "*"
+djoser = "*"
+drf-nested-routers = "*"
+pillow = "*"
+redis = "*"
 
 [dev-packages]
-pytest = "*"
 pytest = "*"
 pytest-django = "*"
 

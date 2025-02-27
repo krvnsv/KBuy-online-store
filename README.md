@@ -55,6 +55,8 @@ Run Server, Redis nad Celery in 3 different terminals
  
 $ python manage.py run
  
-$ docker run -p 6379:6379
+$ docker run -p 6379:6379 redis
  
 $ celery -A storefront worker
+ 
+Every test should have 3 parts, or AAA - Arrange, Act, Assert.
