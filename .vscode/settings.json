@@ -1,3 +1,8 @@
 {
-  "python.pythonPath": "/Users/moshfeghhamedani/.local/share/virtualenvs/storefront-Xk9k71tz/bin/python"
+  "python.pythonPath": "/Users/moshfeghhamedani/.local/share/virtualenvs/storefront-Xk9k71tz/bin/python",
+  "python.testing.pytestArgs": [
+    "."
+  ],
+  "python.testing.unittestEnabled": false,
+  "python.testing.pytestEnabled": true
 }
