@@ -42,16 +42,16 @@ class TestCreateCollection:
         assert response.data['id'] > 0
 
     
-# @pytest.mark.django_db
-# class TestRetrieveCollection:
-#     def test_if_collection_exists_return_200(self, api_client):
-#         # Arrange
-#         collection = baker.make(Collection)
+@pytest.mark.django_db
+class TestRetrieveCollection:
+    def test_if_collection_exists_return_200(self, api_client):
+        collection = baker.make(Collection)
 
-#         response = api_client.get(f'/store/collections{collection.id}')
+        response = api_client.get(f'/store/collections/{collection.id}/')
 
-#         assert response.status_code == status.HTTP_200_OK
-#         assert response.data == {
-#             'id': collection.id,
-#             'title': collection.title
-#         }
+        assert response.status_code == status.HTTP_200_OK
+        assert response.data == {
+            'id': collection.id,
+            'title': collection.title,
+            'products_count': 0
+        }
