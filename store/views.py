@@ -23,7 +23,7 @@ from .serializers import AddCartItemSerializer, CartItemSerializer, CartSerializ
 
 
 class ProductViewSet(ModelViewSet):
-    queryset = Product.objects.all() # prefetch_related('images').
+    queryset = Product.objects.prefetch_related('images').all() 
     serializer_class = ProductSerializer
     filter_backends = [DjangoFilterBackend, SearchFilter, OrderingFilter]
     filterset_class = ProductFilter
