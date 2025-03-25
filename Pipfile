@@ -16,6 +16,7 @@ pillow = "*"
 redis = "*"
 django-redis = "*"
 whitenoise = "*"
+gunicorn = "*"
 
 [dev-packages]
 pytest = "*"

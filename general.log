@@ -43,3 +43,4 @@ Cannot execute silk_profile as silk is not installed correctly.
 2025-03-25 19:56:00,550 (WARNING) - django.request - Unauthorized: /store/collections/
 2025-03-25 19:56:00,563 (WARNING) - django.request - Forbidden: /store/collections/
 2025-03-25 19:56:00,590 (WARNING) - django.request - Bad Request: /store/collections/
+2025-03-25 19:59:45,374 (WARNING) - silk.profiling.profiler - Cannot execute silk_profile as silk is not installed correctly.
