@@ -18,6 +18,8 @@ django-redis = "*"
 whitenoise = "*"
 gunicorn = "*"
 dj-database-url = "*"
+celery = "*"
+django-silk = "*"
 
 [dev-packages]
 pytest = "*"
