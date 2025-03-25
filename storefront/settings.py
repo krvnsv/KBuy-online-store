@@ -56,7 +56,7 @@ MIDDLEWARE = [
     'corsheaders.middleware.CorsMiddleware',
     'debug_toolbar.middleware.DebugToolbarMiddleware',
     'django.middleware.security.SecurityMiddleware',
-    'whitenoise.midleware.WhiteNoiseMiddleware',
+    'whitenoise.middleware.WhiteNoiseMiddleware',
     'django.contrib.sessions.middleware.SessionMiddleware',
     'django.middleware.common.CommonMiddleware',
     'django.middleware.csrf.CsrfViewMiddleware',
@@ -227,7 +227,8 @@ LOGGING = {
         },
         'file': {
             'class': 'logging.FileHandler',
-            'filename': 'general.log'
+            'filename': 'general.log',
+            'formatter': 'verbose'
         }
     },
     'loggers': {
@@ -236,10 +237,10 @@ LOGGING = {
             'level': os.environ.get('DJANGO_LOG_LEVEL', 'INFO')
         }
     },
-    'fornatters': {
+    'formatters': {
         'verbose': {
             'format': '{asctime} ({levelname}) - {name} - {message}',
-            'style': '{' #str.format(), '$'-string.Template
+            'style': '{' # str.format(), '$'-string.Template
         }
     }
 }
