@@ -60,3 +60,5 @@ $ docker run -p 6379:6379 redis
 $ celery -A storefront worker
  
 Every test should have 3 parts, or AAA - Arrange, Act, Assert.
+ 
+Python logging: https://docs.python.org/3/library/logging.html 
