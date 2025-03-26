@@ -12,6 +12,7 @@ Django==5.1.5
 django-debug-toolbar==5.0.1
 django-filter==25.1
 filelock==3.17.0
+gunicorn==19.7.1
 kombu==5.4.2
 mysqlclient==2.2.7
 packaging==24.2
