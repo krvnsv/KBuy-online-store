@@ -1,7 +1,6 @@
 insert into
   store_collection (id, title, featured_product_id)
 values
-  (1, 'Flowers', null),
   (2, 'Grocery', null),
   (3, 'Beauty', null),
   (4, 'Cleaning', null),

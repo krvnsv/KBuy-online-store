@@ -6,7 +6,11 @@ DEBUG = False
 
 SECRET_KEY = os.environ['SECRET_KEY']
 
-ALLOWED_HOSTS = ['moshbuy-prod.herokuapp.com']
+ALLOWED_HOSTS = ['moshbuy-prod.herokuapp.com''localhost', 
+    '127.0.0.1', 
+    '0.0.0.0', 
+    'web'  # Docker service name
+]
 
 DATABASES = {
     'default': dj_database_url.config()

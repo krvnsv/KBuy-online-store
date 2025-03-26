@@ -122,3 +122,101 @@ Cannot execute silk_profile as silk is not installed correctly.
 2025-03-26 14:18:05,877 (INFO) - django.utils.autoreload - Watching for file changes with StatReloader
 2025-03-26 14:22:58,999 (INFO) - django.utils.autoreload - Watching for file changes with StatReloader
 2025-03-26 14:22:59,077 (WARNING) - silk.profiling.profiler - Cannot execute silk_profile as silk is not installed correctly.
+2025-03-26 14:37:01,818 (WARNING) - silk.profiling.profiler - Cannot execute silk_profile as silk is not installed correctly.
+2025-03-26 14:37:01,824 (WARNING) - silk.profiling.profiler - Cannot execute silk_profile as silk is not installed correctly.
+2025-03-26 14:37:01,853 (WARNING) - silk.profiling.profiler - Cannot execute silk_profile as silk is not installed correctly.
+2025-03-26 14:37:02,384 (INFO) - django.utils.autoreload - Watching for file changes with StatReloader
+2025-03-26 14:37:02,457 (WARNING) - silk.profiling.profiler - Cannot execute silk_profile as silk is not installed correctly.
+2025-03-26 14:38:44,518 (INFO) - django.utils.autoreload - /app/storefront/settings/dev.py changed, reloading.
+2025-03-26 14:38:44,774 (INFO) - django.utils.autoreload - Watching for file changes with StatReloader
+2025-03-26 14:38:44,827 (WARNING) - silk.profiling.profiler - Cannot execute silk_profile as silk is not installed correctly.
+2025-03-26 14:39:02,439 (INFO) - django.utils.autoreload - /app/storefront/settings/dev.py changed, reloading.
+2025-03-26 14:39:02,717 (INFO) - django.utils.autoreload - Watching for file changes with StatReloader
+2025-03-26 14:39:02,774 (WARNING) - silk.profiling.profiler - Cannot execute silk_profile as silk is not installed correctly.
+2025-03-26 14:39:09,110 (INFO) - django.utils.autoreload - /app/storefront/settings/dev.py changed, reloading.
+2025-03-26 14:39:09,355 (INFO) - django.utils.autoreload - Watching for file changes with StatReloader
+2025-03-26 14:39:09,418 (WARNING) - silk.profiling.profiler - Cannot execute silk_profile as silk is not installed correctly.
+2025-03-26 14:39:10,559 (INFO) - django.utils.autoreload - /app/storefront/settings/dev.py changed, reloading.
+2025-03-26 14:39:10,857 (INFO) - django.utils.autoreload - Watching for file changes with StatReloader
+2025-03-26 14:39:10,913 (WARNING) - silk.profiling.profiler - Cannot execute silk_profile as silk is not installed correctly.
+2025-03-26 14:39:14,132 (INFO) - django.utils.autoreload - /app/storefront/settings/dev.py changed, reloading.
+2025-03-26 14:39:14,352 (INFO) - django.utils.autoreload - Watching for file changes with StatReloader
+2025-03-26 14:39:14,412 (WARNING) - silk.profiling.profiler - Cannot execute silk_profile as silk is not installed correctly.
+2025-03-26 14:39:25,879 (INFO) - django.utils.autoreload - /app/storefront/settings/dev.py changed, reloading.
+2025-03-26 14:39:26,180 (INFO) - django.utils.autoreload - Watching for file changes with StatReloader
+2025-03-26 14:39:26,251 (WARNING) - silk.profiling.profiler - Cannot execute silk_profile as silk is not installed correctly.
+2025-03-26 14:40:59,137 (INFO) - django.utils.autoreload - /app/storefront/settings/dev.py changed, reloading.
+2025-03-26 14:40:59,393 (INFO) - django.utils.autoreload - Watching for file changes with StatReloader
+2025-03-26 14:40:59,446 (WARNING) - silk.profiling.profiler - Cannot execute silk_profile as silk is not installed correctly.
+2025-03-26 14:41:00,618 (INFO) - django.utils.autoreload - /app/storefront/settings/dev.py changed, reloading.
+2025-03-26 14:41:00,881 (INFO) - django.utils.autoreload - Watching for file changes with StatReloader
+2025-03-26 14:41:00,947 (WARNING) - silk.profiling.profiler - Cannot execute silk_profile as silk is not installed correctly.
+2025-03-26 14:41:15,512 (INFO) - django.utils.autoreload - /app/storefront/settings/dev.py changed, reloading.
+2025-03-26 14:41:15,743 (INFO) - django.utils.autoreload - Watching for file changes with StatReloader
+2025-03-26 14:41:15,799 (WARNING) - silk.profiling.profiler - Cannot execute silk_profile as silk is not installed correctly.
+2025-03-26 14:41:17,966 (INFO) - django.utils.autoreload - /app/storefront/settings/dev.py changed, reloading.
+2025-03-26 14:41:18,235 (INFO) - django.utils.autoreload - Watching for file changes with StatReloader
+2025-03-26 14:41:18,296 (WARNING) - silk.profiling.profiler - Cannot execute silk_profile as silk is not installed correctly.
+2025-03-26 14:41:19,184 (WARNING) - django.request - Unauthorized: /store/collections/
+2025-03-26 14:41:19,210 (WARNING) - django.request - Forbidden: /store/collections/
+2025-03-26 14:41:19,236 (WARNING) - django.request - Bad Request: /store/collections/
+2025-03-26 14:43:38,314 (WARNING) - silk.profiling.profiler - Cannot execute silk_profile as silk is not installed correctly.
+2025-03-26 14:43:38,351 (WARNING) - silk.profiling.profiler - Cannot execute silk_profile as silk is not installed correctly.
+2025-03-26 14:43:39,696 (INFO) - django.utils.autoreload - Watching for file changes with StatReloader
+2025-03-26 14:43:39,762 (WARNING) - silk.profiling.profiler - Cannot execute silk_profile as silk is not installed correctly.
+2025-03-26 14:43:41,081 (WARNING) - django.request - Unauthorized: /store/collections/
+2025-03-26 14:43:41,109 (WARNING) - django.request - Forbidden: /store/collections/
+2025-03-26 14:43:41,136 (WARNING) - django.request - Bad Request: /store/collections/
+2025-03-26 14:45:11,109 (WARNING) - silk.profiling.profiler - Cannot execute silk_profile as silk is not installed correctly.
+2025-03-26 14:45:11,155 (WARNING) - silk.profiling.profiler - Cannot execute silk_profile as silk is not installed correctly.
+2025-03-26 14:45:11,544 (INFO) - django.utils.autoreload - Watching for file changes with StatReloader
+2025-03-26 14:45:11,612 (WARNING) - silk.profiling.profiler - Cannot execute silk_profile as silk is not installed correctly.
+2025-03-26 14:45:12,864 (WARNING) - django.request - Unauthorized: /store/collections/
+2025-03-26 14:45:12,892 (WARNING) - django.request - Forbidden: /store/collections/
+2025-03-26 14:45:12,919 (WARNING) - django.request - Bad Request: /store/collections/
+2025-03-26 15:04:43,909 (WARNING) - django.request - Unauthorized: /store/collections/
+2025-03-26 15:04:43,936 (WARNING) - django.request - Forbidden: /store/collections/
+2025-03-26 15:04:43,962 (WARNING) - django.request - Bad Request: /store/collections/
+2025-03-26 15:04:46,984 (WARNING) - django.request - Unauthorized: /store/collections/
+2025-03-26 15:04:47,013 (WARNING) - django.request - Forbidden: /store/collections/
+2025-03-26 15:04:47,040 (WARNING) - django.request - Bad Request: /store/collections/
+2025-03-26 15:05:22,071 (WARNING) - silk.profiling.profiler - Cannot execute silk_profile as silk is not installed correctly.
+2025-03-26 15:05:22,089 (WARNING) - silk.profiling.profiler - Cannot execute silk_profile as silk is not installed correctly.
+2025-03-26 15:05:23,349 (INFO) - django.utils.autoreload - Watching for file changes with StatReloader
+2025-03-26 15:05:23,414 (WARNING) - silk.profiling.profiler - Cannot execute silk_profile as silk is not installed correctly.
+2025-03-26 15:05:24,613 (WARNING) - django.request - Unauthorized: /store/collections/
+2025-03-26 15:05:24,641 (WARNING) - django.request - Forbidden: /store/collections/
+2025-03-26 15:05:24,669 (WARNING) - django.request - Bad Request: /store/collections/
+2025-03-26 15:10:59,730 (WARNING) - silk.profiling.profiler - Cannot execute silk_profile as silk is not installed correctly.
+2025-03-26 15:10:59,795 (WARNING) - silk.profiling.profiler - Cannot execute silk_profile as silk is not installed correctly.
+2025-03-26 15:11:01,024 (INFO) - django.utils.autoreload - Watching for file changes with StatReloader
+2025-03-26 15:11:01,092 (WARNING) - silk.profiling.profiler - Cannot execute silk_profile as silk is not installed correctly.
+2025-03-26 15:11:02,304 (WARNING) - django.request - Unauthorized: /store/collections/
+2025-03-26 15:11:02,332 (WARNING) - django.request - Forbidden: /store/collections/
+2025-03-26 15:11:02,359 (WARNING) - django.request - Bad Request: /store/collections/
+2025-03-26 15:12:02,900 (WARNING) - silk.profiling.profiler - Cannot execute silk_profile as silk is not installed correctly.
+2025-03-26 15:12:02,947 (WARNING) - silk.profiling.profiler - Cannot execute silk_profile as silk is not installed correctly.
+2025-03-26 15:12:04,109 (INFO) - django.utils.autoreload - Watching for file changes with StatReloader
+2025-03-26 15:12:04,202 (WARNING) - silk.profiling.profiler - Cannot execute silk_profile as silk is not installed correctly.
+2025-03-26 15:12:05,430 (WARNING) - django.request - Unauthorized: /store/collections/
+2025-03-26 15:12:05,458 (WARNING) - django.request - Forbidden: /store/collections/
+2025-03-26 15:12:05,485 (WARNING) - django.request - Bad Request: /store/collections/
+2025-03-26 15:12:57,889 (INFO) - django.utils.autoreload - /app/storefront/settings/dev.py changed, reloading.
+2025-03-26 15:12:58,161 (INFO) - django.utils.autoreload - Watching for file changes with StatReloader
+2025-03-26 15:12:58,224 (WARNING) - silk.profiling.profiler - Cannot execute silk_profile as silk is not installed correctly.
+2025-03-26 15:12:58,900 (WARNING) - django.request - Unauthorized: /store/collections/
+2025-03-26 15:12:58,928 (WARNING) - django.request - Forbidden: /store/collections/
+2025-03-26 15:12:58,954 (WARNING) - django.request - Bad Request: /store/collections/
+2025-03-26 15:13:38,220 (WARNING) - silk.profiling.profiler - Cannot execute silk_profile as silk is not installed correctly.
+2025-03-26 15:13:38,254 (WARNING) - silk.profiling.profiler - Cannot execute silk_profile as silk is not installed correctly.
+2025-03-26 15:13:39,170 (WARNING) - silk.profiling.profiler - Cannot execute silk_profile as silk is not installed correctly.
+2025-03-26 15:13:40,976 (INFO) - django.utils.autoreload - Watching for file changes with StatReloader
+2025-03-26 15:13:41,039 (WARNING) - silk.profiling.profiler - Cannot execute silk_profile as silk is not installed correctly.
+2025-03-26 15:13:41,187 (WARNING) - django.request - Unauthorized: /store/collections/
+2025-03-26 15:13:41,215 (WARNING) - django.request - Forbidden: /store/collections/
+2025-03-26 15:13:41,243 (WARNING) - django.request - Bad Request: /store/collections/
+2025-03-26 15:13:50,122 (WARNING) - django.request - Not Found: /favicon.ico
+2025-03-26 16:29:16,755 (WARNING) - silk.profiling.profiler - Cannot execute silk_profile as silk is not installed correctly.
+2025-03-26 16:34:20,599 (WARNING) - silk.profiling.profiler - Cannot execute silk_profile as silk is not installed correctly.
+2025-03-26 16:35:39,275 (WARNING) - silk.profiling.profiler - Cannot execute silk_profile as silk is not installed correctly.
+2025-03-26 16:37:11,189 (WARNING) - silk.profiling.profiler - Cannot execute silk_profile as silk is not installed correctly.
