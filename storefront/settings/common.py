@@ -197,7 +197,7 @@ LOGGING = {
         }
     },
     'loggers': {
-        '':{
+        '': {
             'handlers': ['console', 'file'],
             'level': os.environ.get('DJANGO_LOG_LEVEL', 'INFO')
         }
@@ -205,7 +205,7 @@ LOGGING = {
     'formatters': {
         'verbose': {
             'format': '{asctime} ({levelname}) - {name} - {message}',
-            'style': '{' # str.format(), '$'-string.Template
+            'style': '{'
         }
     }
 }
