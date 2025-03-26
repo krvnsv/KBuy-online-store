@@ -220,3 +220,77 @@ Cannot execute silk_profile as silk is not installed correctly.
 2025-03-26 16:34:20,599 (WARNING) - silk.profiling.profiler - Cannot execute silk_profile as silk is not installed correctly.
 2025-03-26 16:35:39,275 (WARNING) - silk.profiling.profiler - Cannot execute silk_profile as silk is not installed correctly.
 2025-03-26 16:37:11,189 (WARNING) - silk.profiling.profiler - Cannot execute silk_profile as silk is not installed correctly.
+2025-03-26 16:53:39,098 (WARNING) - silk.profiling.profiler - Cannot execute silk_profile as silk is not installed correctly.
+2025-03-26 16:53:39,108 (WARNING) - silk.profiling.profiler - Cannot execute silk_profile as silk is not installed correctly.
+2025-03-26 16:53:39,140 (WARNING) - silk.profiling.profiler - Cannot execute silk_profile as silk is not installed correctly.
+2025-03-26 16:53:39,838 (INFO) - django.utils.autoreload - Watching for file changes with StatReloader
+2025-03-26 16:53:39,907 (WARNING) - silk.profiling.profiler - Cannot execute silk_profile as silk is not installed correctly.
+2025-03-26 16:53:41,159 (WARNING) - django.request - Unauthorized: /store/collections/
+2025-03-26 16:53:41,190 (WARNING) - django.request - Forbidden: /store/collections/
+2025-03-26 16:53:41,217 (WARNING) - django.request - Bad Request: /store/collections/
+2025-03-26 16:54:16,499 (ERROR) - django.security.DisallowedHost - Invalid HTTP_HOST header: '0.0.0.0:8000'. You may need to add '0.0.0.0' to ALLOWED_HOSTS.
+Traceback (most recent call last):
+  File "/usr/local/lib/python3.9/site-packages/django/core/handlers/exception.py", line 55, in inner
+    response = get_response(request)
+  File "/usr/local/lib/python3.9/site-packages/django/utils/deprecation.py", line 133, in __call__
+    response = self.process_request(request)
+  File "/usr/local/lib/python3.9/site-packages/django/middleware/common.py", line 48, in process_request
+    host = request.get_host()
+  File "/usr/local/lib/python3.9/site-packages/django/http/request.py", line 150, in get_host
+    raise DisallowedHost(msg)
+django.core.exceptions.DisallowedHost: Invalid HTTP_HOST header: '0.0.0.0:8000'. You may need to add '0.0.0.0' to ALLOWED_HOSTS.
+2025-03-26 16:54:16,539 (WARNING) - django.request - Bad Request: /
+2025-03-26 16:54:16,582 (ERROR) - django.security.DisallowedHost - Invalid HTTP_HOST header: '0.0.0.0:8000'. You may need to add '0.0.0.0' to ALLOWED_HOSTS.
+Traceback (most recent call last):
+  File "/usr/local/lib/python3.9/site-packages/django/core/handlers/exception.py", line 55, in inner
+    response = get_response(request)
+  File "/usr/local/lib/python3.9/site-packages/django/utils/deprecation.py", line 133, in __call__
+    response = self.process_request(request)
+  File "/usr/local/lib/python3.9/site-packages/django/middleware/common.py", line 48, in process_request
+    host = request.get_host()
+  File "/usr/local/lib/python3.9/site-packages/django/http/request.py", line 150, in get_host
+    raise DisallowedHost(msg)
+django.core.exceptions.DisallowedHost: Invalid HTTP_HOST header: '0.0.0.0:8000'. You may need to add '0.0.0.0' to ALLOWED_HOSTS.
+2025-03-26 16:54:16,611 (WARNING) - django.request - Bad Request: /favicon.ico
+2025-03-26 16:54:28,318 (ERROR) - django.security.DisallowedHost - Invalid HTTP_HOST header: '0.0.0.0:8000'. You may need to add '0.0.0.0' to ALLOWED_HOSTS.
+Traceback (most recent call last):
+  File "/usr/local/lib/python3.9/site-packages/django/core/handlers/exception.py", line 55, in inner
+    response = get_response(request)
+  File "/usr/local/lib/python3.9/site-packages/django/utils/deprecation.py", line 133, in __call__
+    response = self.process_request(request)
+  File "/usr/local/lib/python3.9/site-packages/django/middleware/common.py", line 48, in process_request
+    host = request.get_host()
+  File "/usr/local/lib/python3.9/site-packages/django/http/request.py", line 150, in get_host
+    raise DisallowedHost(msg)
+django.core.exceptions.DisallowedHost: Invalid HTTP_HOST header: '0.0.0.0:8000'. You may need to add '0.0.0.0' to ALLOWED_HOSTS.
+2025-03-26 16:54:28,353 (WARNING) - django.request - Bad Request: /
+2025-03-26 16:54:28,391 (ERROR) - django.security.DisallowedHost - Invalid HTTP_HOST header: '0.0.0.0:8000'. You may need to add '0.0.0.0' to ALLOWED_HOSTS.
+Traceback (most recent call last):
+  File "/usr/local/lib/python3.9/site-packages/django/core/handlers/exception.py", line 55, in inner
+    response = get_response(request)
+  File "/usr/local/lib/python3.9/site-packages/django/utils/deprecation.py", line 133, in __call__
+    response = self.process_request(request)
+  File "/usr/local/lib/python3.9/site-packages/django/middleware/common.py", line 48, in process_request
+    host = request.get_host()
+  File "/usr/local/lib/python3.9/site-packages/django/http/request.py", line 150, in get_host
+    raise DisallowedHost(msg)
+django.core.exceptions.DisallowedHost: Invalid HTTP_HOST header: '0.0.0.0:8000'. You may need to add '0.0.0.0' to ALLOWED_HOSTS.
+2025-03-26 16:54:28,417 (WARNING) - django.request - Bad Request: /favicon.ico
+2025-03-26 16:55:02,046 (WARNING) - silk.profiling.profiler - Cannot execute silk_profile as silk is not installed correctly.
+2025-03-26 16:55:02,130 (WARNING) - silk.profiling.profiler - Cannot execute silk_profile as silk is not installed correctly.
+2025-03-26 16:55:02,835 (WARNING) - silk.profiling.profiler - Cannot execute silk_profile as silk is not installed correctly.
+2025-03-26 16:55:03,488 (INFO) - django.utils.autoreload - Watching for file changes with StatReloader
+2025-03-26 16:55:03,558 (WARNING) - silk.profiling.profiler - Cannot execute silk_profile as silk is not installed correctly.
+2025-03-26 16:55:04,748 (WARNING) - django.request - Unauthorized: /store/collections/
+2025-03-26 16:55:04,777 (WARNING) - django.request - Forbidden: /store/collections/
+2025-03-26 16:55:04,806 (WARNING) - django.request - Bad Request: /store/collections/
+2025-03-26 17:07:05,328 (WARNING) - silk.profiling.profiler - Cannot execute silk_profile as silk is not installed correctly.
+2025-03-26 17:07:05,366 (WARNING) - silk.profiling.profiler - Cannot execute silk_profile as silk is not installed correctly.
+2025-03-26 17:07:06,211 (WARNING) - silk.profiling.profiler - Cannot execute silk_profile as silk is not installed correctly.
+2025-03-26 17:07:06,976 (INFO) - django.utils.autoreload - Watching for file changes with StatReloader
+2025-03-26 17:07:07,041 (WARNING) - silk.profiling.profiler - Cannot execute silk_profile as silk is not installed correctly.
+2025-03-26 17:07:08,272 (WARNING) - django.request - Unauthorized: /store/collections/
+2025-03-26 17:07:08,301 (WARNING) - django.request - Forbidden: /store/collections/
+2025-03-26 17:07:08,330 (WARNING) - django.request - Bad Request: /store/collections/
+2025-03-26 17:08:57,460 (WARNING) - django.request - Not Found: /favicon.ico
+2025-03-26 17:08:58,649 (WARNING) - django.request - Not Found: /favicon.ico
