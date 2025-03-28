@@ -1,5 +1,13 @@
-# Learning Django
-## Documentation  
+# Kbuy Store
+## Tools Used 
+ 
+Django, MySQL, Data Grip Dj REST Framework, Dj Admin, Dj ORM, Docker, Redis, Celery, PyTest, JWT, Locust, Silk, Heroku
+
+## Features 
+ 
+User authentication, database management, RESTful APIs, file uploads, email notifications, background jobs, caching, automated testing, performance testing, static asset management
+ 
+## Documentation links 
 
 Model field: https://docs.djangoproject.com/en/5.1/ref/models/fields/  
 
@@ -15,7 +23,7 @@ Validators: https://docs.djangoproject.com/en/5.1/ref/validators/
  
 Expression class: Value, F, Func, Aggregate, ExpressionWrapper 
  
----
+## Notes 
  
 API - Application Programming Interface 
  
