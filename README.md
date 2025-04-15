@@ -1,7 +1,7 @@
 # Kbuy Store
 ## Tools Used 
  
-Django, MySQL, Data Grip Dj REST Framework, Dj Admin, Dj ORM, Docker, Redis, Celery, PyTest, JWT, Locust, Silk, Heroku
+Django, MySQL, Data Grip, Dj REST Framework, Dj Admin, Dj ORM, Docker, Redis, Celery, PyTest, JWT, Locust, Silk, Heroku
 
 ## Features 
  
