@@ -5,7 +5,7 @@ Django, MySQL, Data Grip, Dj REST Framework, Dj Admin, Dj ORM, Docker, Redis, Ce
 
 ## Features 
  
-User authentication, database management, RESTful APIs, file uploads, email notifications, background jobs, caching, automated testing, performance testing, static asset management
+User authentication, order processing, database management, RESTful APIs, file uploads, email notifications, background jobs, caching, automated testing, performance testing, static asset management
  
 ## Documentation links 
 
