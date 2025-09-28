@@ -294,3 +294,34 @@ django.core.exceptions.DisallowedHost: Invalid HTTP_HOST header: '0.0.0.0:8000'.
 2025-03-26 17:07:08,330 (WARNING) - django.request - Bad Request: /store/collections/
 2025-03-26 17:08:57,460 (WARNING) - django.request - Not Found: /favicon.ico
 2025-03-26 17:08:58,649 (WARNING) - django.request - Not Found: /favicon.ico
+2025-03-26 19:25:11,725 (WARNING) - django.request - Unauthorized: /store/customers/
+2025-03-26 19:26:22,310 (WARNING) - django.request - Unauthorized: /store/collections/
+2025-03-26 19:26:25,342 (WARNING) - django.request - Unauthorized: /store/
+2025-03-26 19:26:27,055 (WARNING) - django.request - Unauthorized: /store/
+2025-03-26 19:26:27,990 (WARNING) - django.request - Unauthorized: /store/
+2025-03-26 19:26:28,469 (WARNING) - django.request - Unauthorized: /store/
+2025-03-27 14:17:22,663 (WARNING) - django.request - Not Found: /user
+2025-03-27 14:17:35,005 (WARNING) - django.request - Not Found: /login
+2025-03-27 14:19:07,286 (WARNING) - django.request - Not Found: /favicon.ico
+2025-03-27 14:19:40,314 (WARNING) - django.request - Unauthorized: /auth/users/
+2025-03-27 14:20:02,878 (WARNING) - django.request - Bad Request: /auth/users/
+2025-03-27 14:20:26,971 (WARNING) - django.request - Bad Request: /auth/users/
+2025-03-27 14:21:14,217 (WARNING) - django.request - Unauthorized: /store/customers/
+2025-03-31 14:00:52,715 (WARNING) - django.request - Not Found: /about
+2025-03-31 14:01:03,448 (WARNING) - django.request - Not Found: /about/
+2025-03-31 14:03:46,104 (WARNING) - django.request - Not Found: /about/
+2025-03-31 14:03:46,447 (WARNING) - django.request - Not Found: /about/
+2025-03-31 14:03:46,659 (WARNING) - django.request - Not Found: /about/
+2025-03-31 14:03:46,856 (WARNING) - django.request - Not Found: /about/
+2025-03-31 14:03:47,173 (WARNING) - django.request - Not Found: /about/
+2025-03-31 14:03:47,425 (WARNING) - django.request - Not Found: /about/
+2025-03-31 14:08:16,333 (WARNING) - django.request - Not Found: /about/
+2025-03-31 14:08:16,341 (WARNING) - django.request - Not Found: /about/
+2025-05-03 23:30:36,110 (WARNING) - django.request - Not Found: /about/
+2025-05-03 23:30:36,122 (WARNING) - django.request - Not Found: /about/
+2025-05-03 23:30:36,129 (WARNING) - django.request - Not Found: /about/
+2025-05-03 23:30:36,149 (WARNING) - django.request - Not Found: /about/
+2025-05-03 23:30:36,158 (WARNING) - django.request - Not Found: /about/
+2025-05-03 23:30:36,165 (WARNING) - django.request - Not Found: /about/
+2025-09-28 10:35:18,803 (INFO) - django.utils.autoreload - Watching for file changes with StatReloader
+2025-09-28 10:35:18,985 (WARNING) - silk.profiling.profiler - Cannot execute silk_profile as silk is not installed correctly.
